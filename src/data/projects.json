@@ -3,8 +3,21 @@
         "name": "Kanjikita - Learn JLPT Kanji",
         "description": "helps learners learn and memorize a thousands of Japanese kanji characters.",
         "link_img": "https://i.ibb.co.com/267zt8f/unnamed.png",
-        "link_pdf": "https://i.ibb.co.com/267zt8f/unnamed.png",
-        "link_playstore": "https://i.ibb.co.com/267zt8f/unnamed.png",
+        "link_pdf": "https://drive.google.com/file/d/1z8loGX7UMiJXXa81S9zvb8N6NcQTceAK/view?usp=sharing",
+        "link_playstore": "",
+        "tech_stack": [
+            "Python",
+            "Kotlin"
+        ]
+    },
+
+
+    {
+        "name": "Collection of Muslim Prayers Offline",
+        "description": "helps Muslims access various prayers offline with various categories",
+        "link_img": "https://lh3.googleusercontent.com/2ZfjTSrErsQouln8hDThR_zl7dhaZnDvlCEw2PM3PxFOgt1U3ND0xXELQ6fpG3hW7HA",
+        "link_pdf": "",
+        "link_playstore": "https://play.google.com/store/apps/details?id=com.neonusa.kumpulandoamuslim",
         "tech_stack": [
             "Python",
             "Kotlin"
@@ -12,11 +25,11 @@
     },
 
     {
-        "name": "Kanjikita - Learn JLPT Kanji",
-        "description": "helps learners learn and memorize a thousands of Japanese kanji characters.",
-        "link_img": "https://i.ibb.co.com/267zt8f/unnamed.png",
-        "link_pdf": "https://i.ibb.co.com/267zt8f/unnamed.png",
-        "link_playstore": "https://i.ibb.co.com/267zt8f/unnamed.png",
+        "name": "Collection of Muslim Prayers Offline",
+        "description": "helps Muslims access various prayers offline with various categories",
+        "link_img": "https://lh3.googleusercontent.com/2ZfjTSrErsQouln8hDThR_zl7dhaZnDvlCEw2PM3PxFOgt1U3ND0xXELQ6fpG3hW7HA",
+        "link_pdf": "",
+        "link_playstore": "https://play.google.com/store/apps/details?id=com.neonusa.kumpulandoamuslim",
         "tech_stack": [
             "Python",
             "Kotlin"
