@@ -1,0 +1,134 @@
+---
+type Props = {
+	title?: string
+	description?: string
+	link_img?: string
+	link_pdf?: string
+	link_playstore?: string
+	img?: string
+	tech_stack?: string[]
+}
+
+const { title, description, link_img, link_pdf, link_playstore, img, tech_stack} = Astro.props
+
+---
+
+<div class="card">
+    <div class="image-wrapper">
+        <img src={link_img} alt="ChatLLM Image">
+
+        <!-- PDF logo -->
+        {link_pdf ? (
+            <a href={link_pdf} target="_blank" rel="noopener noreferrer">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Icon" class="pdf-logo" style="width: 30px; height: auto;" />
+            </a>
+          ) : null}
+
+        <!-- Play Store logo -->
+        {link_playstore ? (
+            <a href={link_playstore} target="_blank" rel="noopener noreferrer">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Play Store Icon" class="playstore-logo" style="width:60px; height: auto;" />
+            </a>
+          ) : null}
+    </div>
+    <div class="card-content">
+        <h3>{title}</h3>
+        <p>{description}</p>
+        <div class="tags">
+            {
+                tech_stack &&
+                tech_stack.map((item) => (
+                    <span class="tag">{item}</span>
+                ))
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        text-align: center;
+        transition: transform 0.2s;
+        position: relative; /* To position the PDF icon relative to the card */
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+    }
+
+    .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .card img-big {
+    }
+
+    .card-content {
+        padding: 20px;
+    }
+
+    .card h3 {
+        color: #000;
+    }
+
+    .card p {
+        color: #555;
+        text-align: left;
+        font-size: small;
+    }
+
+    .tags {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .tag {
+        background-color: #e1e1e1;
+        color: #333;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 0.9rem;
+    }
+
+    .tag:hover {
+        background-color: #ccc;
+    }
+
+    .image-wrapper {
+        position: relative;
+        width: 100%;
+        height: 200px;
+    }
+
+    
+
+    .pdf-logo {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 10px; /* Adjust size of the PDF icon */
+        height: auto;
+        cursor: pointer;
+    }
+
+    /* Play Store logo */
+.playstore-logo {
+    position: absolute;
+    top: 170px;
+    right: 10px; /* Position the Play Store icon to the left of the PDF icon */
+    width: 20px; /* Adjust size of the Play Store icon */
+    height: auto;
+    cursor: pointer;
+}
+
+    .pdf-logo:hover {
+        opacity: 0.8;
+    }
+</style>
