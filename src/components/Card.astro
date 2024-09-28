@@ -27,7 +27,7 @@ const { title, description, link_img, link_pdf, link_playstore, img, tech_stack}
         <!-- Play Store logo -->
         {link_playstore ? (
             <a href={link_playstore} target="_blank" rel="noopener noreferrer">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Play Store Icon" class="playstore-logo" style="width:60px; height: auto;" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Play Store Icon" class="playstore-logo" style="width:70px; height: auto;" />
             </a>
           ) : null}
     </div>
@@ -128,7 +128,15 @@ const { title, description, link_img, link_pdf, link_playstore, img, tech_stack}
     cursor: pointer;
 }
 
-    .pdf-logo:hover {
-        opacity: 0.8;
-    }
+.pdf-logo:hover {
+    opacity: 0.8;
+    transform: scale(1.1); /* Membesar sedikit saat di-hover */
+    transition: transform 0.3s ease; /* Animasi transisi */
+}
+
+.playstore-logo:hover {
+    opacity: 0.8;
+    transform: scale(1.1); /* Membesar sedikit saat di-hover */
+    transition: transform 0.3s ease; /* Animasi transisi */
+}
 </style>
