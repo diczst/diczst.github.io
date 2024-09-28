@@ -46,7 +46,34 @@
         "link_playstore": "https://play.google.com/store/apps/details?id=com.neonusa.etikacarachatdosen",
         "tech_stack": [
             "Kotlin",
+            "Room",
+            "Koin"
+        ]
+    },
+
+    {
+        "name": "Complete Offline Poetry Collection",
+        "description": "collection of thousands of Indonesian poems that can be accessed offline",
+        "link_img": "https://lh3.googleusercontent.com/bynlKtPmrhSTnLs-pbxer3L_YHlPAQvsa5lg5cJCMyIP5ggIAoMcI30EwJQwL5ehuA",
+        "link_pdf": "",
+        "link_playstore": "https://play.google.com/store/apps/details?id=com.neonusa.kumpulanpuisiindonesia",
+        "tech_stack": [
+            "Kotlin",
+            "Python",
             "Room"
+        ]
+    },
+
+    {
+        "name": "Complete Hadith of Arbain Nawawi",
+        "description": "provides 42 hadith arbain along with audio and translation",
+        "link_img": "https://lh3.googleusercontent.com/VhF5uH8QrG5-fQhBeSzjHgqd0D855kIREYBqX-vFgbbTckp1EiVMbC22NdosBpDURps",
+        "link_pdf": "",
+        "link_playstore": "https://play.google.com/store/apps/details?id=com.neonusa.haditsarbain",
+        "tech_stack": [
+            "Kotlin",
+            "Kotpref",
+            "Koin"
         ]
     }
 ]
