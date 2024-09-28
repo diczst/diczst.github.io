@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Kanjikita - Learn JLPT Kanji",
+        "description": "helps learners learn and memorize a thousands of Japanese kanji characters.",
+        "link_img": "https://i.ibb.co.com/267zt8f/unnamed.png",
+        "link_pdf": "https://i.ibb.co.com/267zt8f/unnamed.png",
+        "link_playstore": "https://i.ibb.co.com/267zt8f/unnamed.png",
+        "tech_stack": [
+            "Python",
+            "Kotlin"
+        ]
+    },
+
+    {
+        "name": "Kanjikita - Learn JLPT Kanji",
+        "description": "helps learners learn and memorize a thousands of Japanese kanji characters.",
+        "link_img": "https://i.ibb.co.com/267zt8f/unnamed.png",
+        "link_pdf": "https://i.ibb.co.com/267zt8f/unnamed.png",
+        "link_playstore": "https://i.ibb.co.com/267zt8f/unnamed.png",
+        "tech_stack": [
+            "Python",
+            "Kotlin"
+        ]
+    }
+]

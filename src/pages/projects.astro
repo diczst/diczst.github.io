@@ -1,0 +1,162 @@
+---
+// Import the layout as done earlier
+import Layout from '../layouts/Layout.astro'
+---
+
+<Layout title="Projects - Dicky Pratama">
+    <section>
+        <div class="container">
+            <div class="content">
+                <div class="grid-container">
+                    <div class="card">
+                        <div class="image-wrapper">
+                            <img src="https://i.ibb.co.com/267zt8f/unnamed.png" alt="ChatLLM Image">
+                            <a href="your-pdf-link.pdf" target="_blank">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Icon" class="pdf-logo" style="width: 30px; height: auto;">
+                            </a>
+                            <!-- Play Store logo -->
+                            <a href="your-playstore-link" target="_blank">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" class="playstore-logo" alt="Play Store Icon"style="width:60px; height: auto;">
+                            </a>
+                        </div>
+                        <div class="card-content">
+                            <h3>Kanjikita - Learn JLPT Kanji</h3>
+                            <p>helps learners learn and memorize a thousands of Japanese kanji characters.</p>
+                            <div class="tags">
+                                <span class="tag">Kotlin</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</Layout>
+
+
+<style>
+   <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f4;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .card {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        text-align: center;
+        transition: transform 0.2s;
+        position: relative; /* To position the PDF icon relative to the card */
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+    }
+
+    .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .card img-big {
+    }
+
+    .card-content {
+        padding: 20px;
+    }
+
+    .card h3 {
+        color: #000;
+    }
+
+    .card p {
+        color: #555;
+        text-align: left;
+        font-size: small;
+    }
+
+    .tags {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .tag {
+        background-color: #e1e1e1;
+        color: #333;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 0.9rem;
+    }
+
+    .tag:hover {
+        background-color: #ccc;
+    }
+
+    .image-wrapper {
+        position: relative;
+        width: 100%;
+        height: 200px;
+    }
+
+    
+
+    .pdf-logo {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 10px; /* Adjust size of the PDF icon */
+        height: auto;
+        cursor: pointer;
+    }
+
+    /* Play Store logo */
+.playstore-logo {
+    position: absolute;
+    top: 170px;
+    right: 10px; /* Position the Play Store icon to the left of the PDF icon */
+    width: 20px; /* Adjust size of the Play Store icon */
+    height: auto;
+    cursor: pointer;
+}
+
+    .pdf-logo:hover {
+        opacity: 0.8;
+    }
+
+    .logo {
+    position: absolute;
+    width: 10px; /* Sesuaikan ukuran logo */
+    height: auto;
+}
+
+    /* Responsif untuk layar kecil (max-width: 768px) */
+    @media (max-width: 768px) {
+        .grid-container {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    /* Responsif untuk layar sangat kecil (max-width: 480px) */
+    @media (max-width: 480px) {
+        .grid-container {
+            grid-template-columns: 1fr;
+        }
+    }
+
+</style>
+
+

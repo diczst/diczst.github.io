@@ -1,0 +1,58 @@
+---
+import Header from '../layouts/Header.astro'
+import { ViewTransitions } from 'astro:transitions'
+import '../styles/global.css'
+
+/*
+    props mirip dengan parameter. Props (singkatan dari "properties") adalah objek yang digunakan untuk mengoper data dari komponen induk ke komponen anak.
+
+    namaVariabel: tipeData
+    namaVariabel?: tipeData <--- membuat parameter ini opsional (menambahkan ?)
+ */
+
+interface Props {
+	title?: string
+	description?: string
+	keywords?: string
+	image?: string
+}
+
+// nilai default
+const {
+	title = "Home - Dicky Pratama",
+	description = "Dicky Pratama is a Full Stack Developer who transform idea into digital solutions. here you'll find some of his previous projects,technical articles, community management endeavors,involvments in open source projects and pieces of information about him.",
+	keywords = "code contributions,developer advocate, open source collaboration, problem solver, software development, laravel developer, react developer, full stack developer, javascript developer, web developer, software engineer",
+	image = "/favicon.ico"
+} = Astro.props
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content={description} />
+		<meta name="keywords" content={keywords} />
+		<meta name="author" content="Dicky Pratama" />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:image" content={image} />
+		<meta property="og:url" content="https://www.diczst.github.io" />
+		<meta name="twitter:card" content={image} />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={image} />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<ViewTransitions />
+
+		<title>{title}</title>
+	</head>
+	<body>
+		<Header /> 
+		<main>
+            <!-- saat komponen Layout digunakan, bagian kode di bagian bodynya akan berada disini -->
+			<slot /> 
+		</main>
+	</body>
+</html>

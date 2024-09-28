@@ -1,0 +1,50 @@
+---
+import HeaderLink from './HeaderLink.astro'
+---
+
+<header>
+	<div class="container">
+		<nav>
+		<!-- todo : tambahkan education sama projects --->
+			<!-- <HeaderLink href="/">Home</HeaderLink>
+			<HeaderLink href="/experience">Experience</HeaderLink>
+			<HeaderLink href="/skills">Skills</HeaderLink> -->
+			<!--<HeaderLink href="/projects">Projects</HeaderLink>-->
+			<!--<HeaderLink href="/blog">Blog</HeaderLink>-->
+
+            <HeaderLink href="/">Home</HeaderLink>
+            <HeaderLink href="/experience">Experience</HeaderLink>
+            <HeaderLink href="/projects">Projects</HeaderLink>
+                <slot />
+            </a>
+		</nav>
+	</div>
+
+	<style>
+	
+
+		header {
+			margin-top: 10rem;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		nav {
+			display: flex;
+			gap: 1rem; /* Adjust the gap between links */
+		}
+
+		HeaderLink {
+			text-decoration: none;
+			color: black;
+		}
+	</style>
+</header>
