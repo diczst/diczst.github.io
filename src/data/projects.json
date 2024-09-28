@@ -36,5 +36,17 @@
             "Kotlin",
             "Room"
         ]
+    },
+
+    {
+        "name": "Ethics of How to Chat with Lecturers",
+        "description": "to assist students in communicating politely with lecturers via text messages",
+        "link_img": "https://lh3.googleusercontent.com/tBto7W5HnVcaEFMGhv0anaxnQIA9wYvPdkrNJyvWQEqDn3GDOkCyRaJgFPeq2EqByS4",
+        "link_pdf": "",
+        "link_playstore": "https://play.google.com/store/apps/details?id=com.neonusa.etikacarachatdosen",
+        "tech_stack": [
+            "Kotlin",
+            "Room"
+        ]
     }
 ]
