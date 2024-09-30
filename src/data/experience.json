@@ -28,6 +28,19 @@
     },
 
     {
+        "position" : "Student Internship",
+        "company" : "SMKN 4 Bengkulu",
+        "location" : "Bengkulu, Indonesia",
+        "tenure" : "Feb 2023 - Jun 2023",
+        "tasks" : [
+            "Designing Android applications that aim to help students understand the concepts of web and mobile programming.",
+            "Develop applications using Kotlin as the programming language, with Koin for dependency injection and Retrofit to manage API communication.",
+            "Building the application backend using Laravel, which is responsible for managing user data, learning materials, and student progress",
+            "Deploy the application so that it can be accessed on students' and teachers' Android devices, and manage system configurations to ensure the application runs optimally in supporting learning."
+        ]
+    },
+
+    {
         "position" : "Software Engineering Laboratory Assistant",
         "company" : "Universitas Bengkulu",
         "location" : "Bengkulu, Indonesia",
@@ -40,7 +53,7 @@
     },
 
     {
-        "position" : "Internship",
+        "position" : "Student Internship",
         "company" : "Faculty of Medicine and Health Sciences Universitas Bengkulu",
         "location" : "Bengkulu, Indonesia",
         "tenure" : "Aug 2022 - Dec 2022",
@@ -65,7 +78,7 @@
     },
 
     {
-        "position" : "Intenship",
+        "position" : "Student Internship",
         "company" : "Department of Communication, Informatics and Statistics",
         "location" : "Bengkulu, Indonesia",
         "tenure" : "",
