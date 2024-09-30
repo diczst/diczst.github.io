@@ -4,7 +4,7 @@
         "description": "to help learners learn and memorize a thousands of Japanese kanji characters.",
         "link_img": "https://i.ibb.co.com/267zt8f/unnamed.png",
         "link_pdf": "https://drive.google.com/file/d/1z8loGX7UMiJXXa81S9zvb8N6NcQTceAK/view?usp=sharing",
-        "link_playstore": "",
+        "link_playstore": "https://play.google.com/store/apps/details?id=com.neonusa.belajarkanjijlpt",
         "tech_stack": [
             "Python",
             "Kotlin",
