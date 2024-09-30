@@ -5,8 +5,8 @@
         "location" : "Bengkulu, Indonesia",
         "tenure" : "June 2024 - Present",
         "tasks" : [
-            "Responsible for designing, developing, and maintaining a android application for laying hen farming",
-            "Responsible for designing, developing, and maintaining the application backend services.",
+            "Designing, developing, and maintaining a android application for laying hen farming",
+            "Designing, developing, and maintaining the application backend services.",
             "Developed various services using Laravel RESTful API. Implemented authentication and authorization using JWT",
             "Integrating public APIs and third-party services to enhance the application's functionality and support the growth of active users.",
             "Responsible for brainstorming, developing, testing, collaborating, code reviewing, and debugging."
