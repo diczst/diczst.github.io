@@ -14,6 +14,20 @@
     },
 
     {
+        "position" : "Fresh Graduate Academy (FGA) – Data Science",
+        "company" : "Kominfo (Digital Talent Scholarship)",
+        "location" : "Remote",
+        "tenure" : "Feb 2024 - Mar 2024",
+        "tasks" : [
+            "Learn to communicate, analyze and visualize data using B.I Tools.",
+            "Learn about data types in SQL databases, SQL syntax, and how to create datasets in BigQuery.",
+            "Learn the basics of statistics including concepts, data types, methods of drawing conclusions, types of data distribution and correlation.",
+            "Learn advanced statistics including sampling methods, hypothesis testing and experimental design A/B testing.",
+            "Learn the concept of machine learning, data modeling, functions, benefits and types of data modeling"
+        ]
+    },
+
+    {
         "position" : "Software Engineering Laboratory Assistant",
         "company" : "Universitas Bengkulu",
         "location" : "Bengkuku, Indonesia",
