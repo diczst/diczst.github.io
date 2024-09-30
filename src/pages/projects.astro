@@ -1,8 +1,8 @@
 ---
 // Import the layout as done earlier
 import Layout from '../layouts/Layout.astro'
-import Card from '../components/Card.astro'
 import projects from '../data/projects.json'
+import CardProjects from '../components/CardProjects.astro'
 
 ---
 
@@ -13,7 +13,7 @@ import projects from '../data/projects.json'
                 <div class="grid-container">
                     {
                         projects.map((item) => (
-                            <Card
+                            <CardProjects
                                 title={item.name}
                                 description={item.description}
                                 link_img={item.link_img}
