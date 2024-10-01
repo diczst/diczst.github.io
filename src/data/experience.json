@@ -5,11 +5,10 @@
         "location" : "Bengkulu, Indonesia",
         "tenure" : "June 2024 - Present",
         "tasks" : [
-            "Designing, developing, and maintaining a android application for laying hen farming",
-            "Designing, developing, and maintaining the application backend services.",
-            "Developed various services using Laravel RESTful API. Implemented authentication and authorization using JWT",
-            "Integrating public APIs and third-party services to enhance the application's functionality and support the growth of active users.",
-            "Responsible for brainstorming, developing, testing, collaborating, code reviewing, and debugging."
+            "Designed and developed a smart farming Android application for laying hen farming, featuring monitoring, analysis, and recording of coop data.",
+            "Designed and developed the backend for the application using Laravel, enabling data management, synchronization, and seamless integration with the mobile application",
+            "Integrated the backend with the Android application, ensuring efficient data flow between the server and the device, as well as supporting data retrieval and updates.",
+            "Conducted testing, code reviews, and debugging of the Android application and its Laravel backend."
         ]
     },
 
@@ -19,11 +18,11 @@
         "location" : "Remote",
         "tenure" : "Feb 2024 - Mar 2024",
         "tasks" : [
-            "Learn to communicate, analyze and visualize data using B.I Tools.",
-            "Learn about data types in SQL databases, SQL syntax, and how to create datasets in BigQuery.",
-            "Learn the basics of statistics including concepts, data types, methods of drawing conclusions, types of data distribution and correlation.",
-            "Learn advanced statistics including sampling methods, hypothesis testing and experimental design A/B testing.",
-            "Learn the concept of machine learning, data modeling, functions, benefits and types of data modeling"
+            "Learned to communicate, analyze and visualize data using B.I Tools.",
+            "Learned about data types in SQL databases, SQL syntax, and how to create datasets in BigQuery.",
+            "Learned the basics of statistics including concepts, data types, methods of drawing conclusions, types of data distribution and correlation.",
+            "Learned advanced statistics including sampling methods, hypothesis testing and experimental design A/B testing.",
+            "Learned the concept of machine learning, data modeling, functions, benefits and types of data modeling"
         ]
     },
 
@@ -33,10 +32,12 @@
         "location" : "Bengkulu, Indonesia",
         "tenure" : "Feb 2023 - Jun 2023",
         "tasks" : [
-            "Designing Android applications that aim to help students understand the concepts of web and mobile programming.",
-            "Develop applications using Kotlin as the programming language, with Koin for dependency injection and Retrofit to manage API communication.",
-            "Building the application backend using Laravel, which is responsible for managing user data, learning materials, and student progress",
-            "Deploy the application so that it can be accessed on students' and teachers' Android devices, and manage system configurations to ensure the application runs optimally in supporting learning."
+            "Designed Gamacode, an android application that aim to help students understand the concepts of web and mobile programming and track their learning progress with gamification methods.",
+            "Developed the application using Kotlin as the programming language, with Koin for dependency injection and Retrofit for managing API communication.",
+            "Built the backend using Laravel, responsible for managing user data, learning materials, and student progress.",
+            "Deployed the application, making it accessible to students and teachers on Android devices.",
+            "Performed usability testing to ensure the application functions properly and meets user needs.",
+            "Created comprehensive report on the system design, development and implementation process"
         ]
     },
 
@@ -46,8 +47,8 @@
         "location" : "Bengkulu, Indonesia",
         "tenure" : "Aug 2022 - Dec 2022",
         "tasks" : [
-            "Assist in class administration and reporting related to laboratory activities and provide progress reports to the lecturer.",
-            "Provide guidance to students on the use of software modelling tools.",
+            "Assisted with class administration and reporting related to laboratory activities, providing progress reports to the lecturer.",
+            "Guided studeGuided students in the use of software modeling tools, including teaching the creation and interpretation of various UML diagrams such as Class, Use Case, Sequence, and Activity Diagrams.nts in the use of software modeling tools, including teaching the creation and interpretation of various UML diagrams such as Class, Use Case, Sequence, and Activity Diagrams.",
             "Monitor the progress of practical projects being undertaken by students and Provide feedback and advice to improve the quality of project outcomes."
         ]
     },
@@ -58,9 +59,9 @@
         "location" : "Bengkulu, Indonesia",
         "tenure" : "Aug 2022 - Dec 2022",
         "tasks" : [
-            "designing the Objective Structured Clinical Examination (OSCE) assessment information system architecture. The design process includes user needs analysis, user interface (UI/UX) design, and efficient database settings for storing assessment result data.",
-            "developing a system using Laravel as a web technology. This process includes implementing key features such as filling in grades by examiners, processing assessment data, and presenting OSCE result reports for students and faculty, as well as ensuring the system functions optimally according to user needs.",
-            "prepare a complete report on the system design, development and implementation process."
+            "Designed the Objective Structured Clinical Examination (OSCE) assessment information system architecture",
+            "Developed the web system using Laravel, implementing key features such as examiner grading interfaces, assessment data processing, and generation of detailed OSCE for faculty.",
+            "Created comprehensive report on the system design, development and implementation process"
         ]
     },
 
@@ -70,10 +71,9 @@
         "location" : "Bengkulu, Indonesia",
         "tenure" : "Mar 2022 - Aug 2022",
         "tasks" : [
-            "Assist in class administration and reporting related to laboratory activities and provide progress reports to the lecturer.",
-            "Train students in the use of programming tools, Integrated Development Environments (IDEs), and related development software.",
-            "Provide guidance to students in understanding programming concepts. Assist students in completing programming assignments.",
-            "Assess and provide feedback on the code generated by students. Provide guidance in debugging or improving code."
+            "Assisted with class administration and reporting related to laboratory activities, providing progress reports to the lecturer.",
+            "Provided guidance to students in the use of Integrated Development Environments (IDEs).",
+            "Assessed and offered constructive feedback on students' code.",
         ]
     },
 
@@ -83,7 +83,7 @@
         "location" : "Bengkulu, Indonesia",
         "tenure" : "",
         "tasks" : [
-            "Assisting technicians in the installation of devices at various government agencies in Bengkulu by providing technical support and ensuring the efficient installation and optimal functionality of the devices in each institution."
+            "Assisted technicians with the installation of devices at various government agencies in Bengkulu, providing technical support and ensuring efficient installation and optimal functionality of the devices at each institution."
         ]
     }
 ]
