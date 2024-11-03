@@ -1,14 +1,14 @@
 [
     {
         "name": "Tanciku - Manage Finances Easily",
-        "description": "Tanciku is a financial management application designed to make it easier to record, manage and monitor finances in order to achieve financial goals.",
+        "description": "Financial management application designed to make it easier to manage finances.",
         "link_img": "https://i.ibb.co.com/T06TSb4/unnamed.png",
         "link_pdf": "https://drive.google.com/file/d/1HRltgbiYqSI2zEogsRkQesw1asjiAJaS/view?usp=sharing",
         "link_playstore": "https://play.google.com/store/apps/details?id=com.neonusa.tanciku",
         "tech_stack": [
             "Kotlin",
-            "Jetpack Compose",
-            "Clean Architecture"
+            "MVVM",
+            "Clean Arch"
         ]
     },
     {
