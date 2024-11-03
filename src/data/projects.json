@@ -38,44 +38,6 @@
     },
 
     {
-        "name": "Collection of Muslim Prayers Offline",
-        "description": "to help muslims access various prayers offline with various categories",
-        "link_img": "https://lh3.googleusercontent.com/2ZfjTSrErsQouln8hDThR_zl7dhaZnDvlCEw2PM3PxFOgt1U3ND0xXELQ6fpG3hW7HA",
-        "link_pdf": "",
-        "link_playstore": "https://play.google.com/store/apps/details?id=com.neonusa.kumpulandoamuslim",
-        "tech_stack": [
-            "Python",
-            "Kotlin",
-            "Room"
-        ]
-    },
-
-    {
-        "name": "Hadith of Arbain Nawawi",
-        "description": "provides 42 hadith arbain along with audio and translation",
-        "link_img": "https://lh3.googleusercontent.com/VhF5uH8QrG5-fQhBeSzjHgqd0D855kIREYBqX-vFgbbTckp1EiVMbC22NdosBpDURps",
-        "link_pdf": "",
-        "link_playstore": "https://play.google.com/store/apps/details?id=com.neonusa.haditsarbain",
-        "tech_stack": [
-            "Kotlin",
-            "Kotpref",
-            "Koin"
-        ]
-    },
-
-    {
-        "name": "Morning Evening Dhikr",
-        "description": "to help muslims in practicing morning and evening dhikr",
-        "link_img": "https://lh3.googleusercontent.com/G-veINEg2bQ-IBspwaexVhzgCg4rkN7rqLmmvZwwIv_CDun0RmK2u8o6h1wQOIZf2g",
-        "link_pdf": "",
-        "link_playstore": "https://play.google.com/store/apps/details?id=com.neonusa.dzikirpagipetanglengkap",
-        "tech_stack": [
-            "Kotlin",
-            "Python"
-        ]
-    },
-
-    {
         "name": "Short Story Collection",
         "description": "a collection of short stories that can be accessed offline",
         "link_img": "https://lh3.googleusercontent.com/bk6Lqvl1FxMxTCxo3vMH6hidUy0nDduJlmHLvVGUjjB7of4GcwrlVfCdcDUXaOneMQ",
