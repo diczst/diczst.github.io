@@ -45,39 +45,5 @@
             "Room",
             "Koin"
         ]
-    },
-    {
-        "name": "Short Story Collection",
-        "description": "a collection of short stories that can be accessed offline",
-        "link_img": "https://lh3.googleusercontent.com/bk6Lqvl1FxMxTCxo3vMH6hidUy0nDduJlmHLvVGUjjB7of4GcwrlVfCdcDUXaOneMQ",
-        "link_pdf": "",
-        "link_playstore": "https://play.google.com/store/apps/details?id=com.neonusa.kumpulancerpenceritapendek",
-        "tech_stack": [
-            "Kotlin",
-            "Python"
-        ]
-    },
-    {
-        "name": "Offline Indonesia Poetry Collection",
-        "description": "collection of thousands of Indonesian poems that can be accessed offline",
-        "link_img": "https://lh3.googleusercontent.com/bynlKtPmrhSTnLs-pbxer3L_YHlPAQvsa5lg5cJCMyIP5ggIAoMcI30EwJQwL5ehuA",
-        "link_pdf": "",
-        "link_playstore": "https://play.google.com/store/apps/details?id=com.neonusa.kumpulanpuisiindonesia",
-        "tech_stack": [
-            "Kotlin",
-            "Python",
-            "Room"
-        ]
-    },
-    {
-        "name": "Indonesia Pantun Collection",
-        "description": "a collection of indonesia pantun that can be accessed offline",
-        "link_img": "https://lh3.googleusercontent.com/tZs_qbq5YKANELXpWrsTmLlPmD5HOBMC9J2hHN_S1LxUN5sMgtn-xPWnWU5sFdagAEI",
-        "link_pdf": "",
-        "link_playstore": "https://play.google.com/store/apps/details?id=com.neonusa.kumpulanpantunlengkapbaru",
-        "tech_stack": [
-            "Kotlin",
-            "Python"
-        ]
     }
 ]
